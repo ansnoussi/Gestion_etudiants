@@ -24,6 +24,6 @@ main() {
     int & ref=A[5];
     int * point;
     point=A+7;
-    (point)++;
+    (*point)++ ;
     t.afficheA(A);
 }
