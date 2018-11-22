@@ -1,14 +1,15 @@
 #ifndef ETUDIANT_H
 #define ETUDIANT_H
 #include "Matiere.h"
+#define NBR_MATIERE 3
 
 class Etudiant{
 private:
     int NumCarte;
     int Telephone;
     double Moyenne;
-    const int NbMatieres = 3;
-    Matiere Matieres[3];
+    const int NbMatieres = NBR_MATIERE;
+    Matiere Matieres[NBR_MATIERE];
 
 public:
     // Constructeur

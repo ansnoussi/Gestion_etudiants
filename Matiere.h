@@ -9,6 +9,8 @@ private:
 public:
     // Constructeur 
     Matiere();
+    // Constructeur chargé (question 3)
+    Matiere(char I[],double C,double N);
     // Destructeur
     ~Matiere();
     // getters

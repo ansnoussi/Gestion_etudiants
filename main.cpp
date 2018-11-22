@@ -5,6 +5,8 @@
 #include "Filiere.h"
 using namespace std;
 
+
+
 int main() {
     // On a appliquer la consigne en testant avec 4 étudiants, 3 matières et 2 filières 
     Filiere GL,IIA;
@@ -27,6 +29,15 @@ int main() {
     IIA.Afficher();
     system ("pause");
     
+    //On va tester si l'etudiant appartient a la filière GL
+    /*
+    Etudiant E;
+    E.setAll();
     
+    if (GL.Appartenance(E))
+        cout << "Fesfes";
+    else
+        cout << " Tnekna";
+    */
     return 0;
 };

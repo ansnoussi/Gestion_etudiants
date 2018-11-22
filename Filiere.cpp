@@ -49,6 +49,28 @@ int Filiere::getNbEtudiant() {
     return NbEtudiant;
 }
 
+bool Filiere::Appartenance(Etudiant E) {
+    for (int i=0;i<NbEtudiant;i++)
+        if(E.getNumCarte()==TabEtudiant[i].getNumCarte())
+            return true;
+    return false;
+}
+
+bool Filiere::Appartenance(Etudiant* E){
+    for (int i=0;i<NbEtudiant;i++)
+        if(E->getNumCarte()==TabEtudiant[i].getNumCarte())
+            return true;
+    return false;
+}
+
+/*bool Filiere::Appartenance(Etudiant &E){
+    for (int i=0;i<NbEtudiant;i++)
+        if(E.getNumCarte()==TabEtudiant[i].getNumCarte())
+            return true;;
+            return false;
+}*/
+
+
 
 
 

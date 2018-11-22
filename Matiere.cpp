@@ -7,6 +7,11 @@ using namespace std;
     Coefficient=0;
     Note=-1;
     }
+    Matiere::Matiere(char I[],double C,double N){
+    	strcpy(Intitule,I);
+    	Coefficient= C;
+    	Note= N;
+	}
     
     Matiere::~Matiere(){
         cout << "Object Matiere deleted !" << endl;
