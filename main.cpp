@@ -29,15 +29,5 @@ int main() {
     IIA.Afficher();
     system ("pause");
     
-    //On va tester si l'etudiant appartient a la filière GL
-    /*
-    Etudiant E;
-    E.setAll();
-    
-    if (GL.Appartenance(E))
-        cout << "Fesfes";
-    else
-        cout << " Tnekna";
-    */
     return 0;
 };
